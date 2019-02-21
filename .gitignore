@@ -1,0 +1,10 @@
+*-bak
+data/
+__pycache__
+spycloud.ini
+.venv/*
+pyenv/*
+.pyenv/*
+secrets/*
+*DS_Store
+*.pem

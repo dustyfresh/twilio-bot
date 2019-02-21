@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+	<Dial>
+		<Conference
+			waitUrl="http://oni.opsec.pw:1337/static/mp3/ringing.mp3"
+			record="record-from-start"
+			beep="false">callTroll</Conference>
+	</Dial>
+</Response>
