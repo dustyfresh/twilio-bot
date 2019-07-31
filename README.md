@@ -16,6 +16,14 @@ $ docker-compose up -d
 ## Available Commands
 Each command has an associated MP3 to play when it calls someone. MP3 files can be found in the static assets directory  [here](https://github.com/dustyfresh/twilio-bot/tree/master/app/code/static/mp3), and the twilio XML config for each command can be found [here](https://github.com/dustyfresh/twilio-bot/tree/master/app/code/static/xml).
 
+If you want to look at the commands, or add your own you can find them [here](https://github.com/dustyfresh/twilio-bot/blob/master/app/code/routes/sms.py).
+
+SMS bot command example
+
+```
+!rickroll 123-123-1234
+```
+
 | command  | description  |
 |---|---|
 | !rickroll <number> | What monster would I be if I didn't bake this in right from the start? |
